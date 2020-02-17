@@ -1,0 +1,6 @@
+- name: new test
+  hosts: 192.168.56.11
+  task:
+    - name: "print test"
+      debug:
+        msg: "hello new test"
