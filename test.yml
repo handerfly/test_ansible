@@ -1,6 +1,6 @@
-- name: git new test
-  hosts: 192.168.56.11
-  task:
-    - name: "print test"
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
       debug:
-        msg: "hello new test"
+        msg: "Hello World!"
