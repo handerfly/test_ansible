@@ -1,4 +1,4 @@
-- name: new test
+- name: git new test
   hosts: 192.168.56.11
   task:
     - name: "print test"
