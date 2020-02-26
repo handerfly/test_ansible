@@ -1,6 +1,7 @@
-- name: Hello World Sample2
-  hosts: node2
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+- name: test commaond playbook
+  task: 
+    name: test1
+    debug:
+      msg: "helloworld"
+
+
