@@ -1,5 +1,5 @@
 - name: test commaond playbook
-  hosts: node2
+  hosts: all
   tasks: 
     - name: test1
       debug:
