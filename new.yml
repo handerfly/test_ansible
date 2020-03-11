@@ -2,7 +2,6 @@
   hosts: all
   tasks: 
     - name: test1
-      debug:
-        msg: "helloworld"
+      shell: hostname -i
 
 
